@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "email_assistant"
+version = "0.1.0"
+description = "Email Assistant can help you read, reply, and compose emails for you. It helps you to be a better communicator with less efforts."
+authors = ["autom_admin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+# autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
+autom = { path = "/home/steve/workspace/autom" }
+
+[tool.autom]
+qualifier = "email_assistant"
+name = "Email Assistant"
+owner_qualifier = "autom_admin"
+owner_email = "admin@autom.com"
+description = "Email Assistant can help you read, reply, and compose emails for you. It helps you to be a better communicator with less efforts."
+python_version = "3.12"
+python_version_spec = "^3.12"
+publicity = "public"
+github_repo_url = "https://github.com/stevieflyer/email_assistant.git"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
