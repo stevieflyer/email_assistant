@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "email_assistant"
-version = "0.1.0"
+version = "0.0.1"
 description = "Email Assistant can help you read, reply, and compose emails for you. It helps you to be a better communicator with less efforts."
 authors = ["autom_admin"]
 readme = "README.md"
@@ -21,6 +21,7 @@ name = "Email Assistant"
 owner_qualifier = "steveflyer"
 owner_email = "steveflyer7@gmail.com"
 description = "Email Assistant can help you read, reply, and compose emails for you. It helps you to be a better communicator with less efforts."
+version = "0.0.1"
 python_version = "3.12"
 python_version_spec = "^3.12"
 publicity = "public"
